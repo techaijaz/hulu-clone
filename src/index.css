@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +17,118 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@media only screen and (min-width: 230px) {
+  .videoCard > img {
+    width: 100% !important;
+  }
+
+  .videoCard {
+    width: 90% !important;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .videoCard > img {
+    width: 100% !important;
+  }
+
+  .videoCard {
+    width: 46% !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .videoCard > img {
+    width: 100% !important;
+  }
+
+  .videoCard {
+    width: 46% !important;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .videoCard > img {
+    width: 100% !important;
+  }
+
+  .videoCard {
+    width: 30% !important;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .videoCard > img {
+    width: 100% !important;
+  }
+
+  .videoCard {
+    width: 23% !important;
+  }
+}
+/*@media only screen and (min-width: 280px) {
+  .videoCard > img {
+      width: 250px !important;
+  }
+
+  .videoCard {
+    width: 400px !important;
+  }
+}
+
+@media only screen and (min-width: 319px) {
+  .videoCard > img {
+      width: 290px !important;
+  }
+
+  .videoCard {
+    width: 400px !important;
+  }
+}
+@media only screen and (min-width: 330px) {
+  .videoCard > img {
+      width: 290px !important;
+  }
+
+  .videoCard {
+    width: 400px !important;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  .videoCard > img {
+      width: 320px !important;
+  }
+
+  .videoCard {
+    width: 400px !important;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .videoCard > img {
+      width: 340px !important;
+  }
+
+  .videoCard {
+    width: 400px !important;
+  }
+}
+
+
+@media only screen and (min-width: 400px) {
+  .videoCard > img {
+      width: 370px !important;
+  }
+
+  .videoCard {
+    width: 400px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .videoCard > img {
+    width: 340px !important;
+  }
+
+  .videoCard {
+    width: 360px !important;
+  }
+}*/
